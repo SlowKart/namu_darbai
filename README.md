@@ -6,7 +6,9 @@ One hour to test something is a pretty small time window, so the first thing i w
 
 1. Decide on the scope and most critical parts of the page, so if we run out of time, the most important things are covered and tested. Since this is a contact page, i would assume that contacting telesoftas is the most important feature here. 
    a) Theres a "Lets talk" CTA, which takes a huge part of the screen so we need to make sure it works correctly.
+   
    b) Checking and making sure all the contact details are correct(emails, phone numbers, social media links, should there be  thesame contact email for all the offices?).
+   
    c) Documenting the test cases/scenarios of what was tested and what was the outcome. 
 2. So the main function of the contact page is tested and working, so we can move to less critical parts like the design. Assuming that we have a list of popular browsers/devices that are being used to visit this page, we can prioritize on what devices to test it.
    a) Testing different devices/browsers
