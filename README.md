@@ -13,7 +13,7 @@ One hour to test something is a pretty small time window, so the first thing i w
    c) Documenting the test cases/scenarios of what was tested and what was the outcome. 
    
 2. So the main function of the contact page is tested and working, so we can move to less critical parts like the design. Assuming that we have a list of popular browsers/devices that are being used to visit this page, we can prioritize on what devices to test it.
-3. 
+ 
    a) Testing different devices/browsers
    
    b) checking responsive design
