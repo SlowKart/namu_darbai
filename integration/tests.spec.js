@@ -22,11 +22,10 @@ context('Tiketa page test', function () {
     tiketaPage.selectDateFrom().type('2022-01-01');
     tiketaPage.selectDateTo().type('2022-03-31');
     tiketaPage.searchForm().submit();
-    cy.task('log', tiketaPage.concertList() );
   });
   it('Task 3', function () {
     cy.visit('http://the-internet.herokuapp.com/challenging_dom');
-    herokuPage.thirdRowText().dblclick();
-    cy.get('table').find('tr').eq(7).find('td').eq(6);
-    cy.get('table').find('tr').eq(3).find('td').eq(6).;
+    herokuPage.thirdRowText().click();
+    herokuPage.seventhRowText().click();
+  });
   });
